@@ -1,7 +1,6 @@
 const express = require('express');
 const app = express();
 const db = require('./config/database');
-require("dotenv").config();
 const layouts= require("express-ejs-layouts");
 
 app.use(express.static('public'));
