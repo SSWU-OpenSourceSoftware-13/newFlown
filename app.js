@@ -4,7 +4,7 @@ const db = require('./config/database');
 const layouts= require("express-ejs-layouts");
 
 app.use(express.static('public'));
-
+//add new line for test
 
 app.set('port', process.env.PORT || 80);
 
